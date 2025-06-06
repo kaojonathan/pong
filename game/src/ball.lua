@@ -7,7 +7,9 @@ function Ball:new(r, xpos, ypos, speed)
 		radius = r,
 		speed = speed or 100,
 		xpos = xpos,
-		ypos = ypos 
+		ypos = ypos,
+		xvec = 0,
+		yvec = 0
 	}
 
 	setmetatable(inst, self)

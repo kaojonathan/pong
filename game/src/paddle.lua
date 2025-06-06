@@ -5,7 +5,8 @@ function Paddle:new(width, height, xpos, ypos)
 		width = width or 10,
 		height = height or 50,
 		xpos = xpos,
-		ypos = ypos
+		ypos = ypos,
+		score = 0
 	}
 	return inst
 end
